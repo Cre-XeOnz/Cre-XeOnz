@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjs/10.0.0/math.min.js"></script>
+    <title>Calculator</title>
+</head>
+<body>
+    <h1><u>Calculator</u></h1>
+    <container>
+        <calc-dis>
+            <input type="text" placeholder="0" id="screen">
+        </calc-dis>
+        <calc-mid>
+            <div class="reset-btn">
+                <button onclick="reset()">AC</button>
+            </div>
+        </calc-mid>
+        <calc-body>
+            <div class="numbers">
+                <row1>
+                    <button onclick="number7()">7</button>
+                    <button onclick="number8()">8</button>
+                    <button onclick="number9()">9</button>
+                </row1>
+                <row2>
+                    <button onclick="number4()">4</button>
+                    <button onclick="number5()">5</button>
+                    <button onclick="number6()">6</button>
+                </row2>
+                <row3>
+                    <button onclick="number1()">1</button>
+                    <button onclick="number2()">2</button>
+                    <button onclick="number3()">3</button>
+                </row3>
+                <row4>
+                    <button onclick="number0()">0</button>
+                    <button onclick="numberdot()" id="dot">.</button>
+                    <button onclick="numberperc()" id="percent">%</button>
+                </row4>
+            </div>
+            <div class="calc">
+                <button onclick="backspace()">C</button>
+                <button onclick="add()">+</button>
+                <button onclick="sub()">-</button>
+                <button onclick="multiply()">x</button>
+                <button onclick="divide()">/</button>
+                <button onclick="equals()">=</button>
+            </div>
+        </calc-body>
+    </container>
+</body>
+</html>

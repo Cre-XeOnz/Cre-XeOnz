@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mini Game</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <div id="main">       
+    <h1 id="heading1">Rock Paper Scissors</h1>
+        <div id="before-dis">
+            <img src="back.png" alt="back" onclick="comp_ans()" id="img1">
+        </div>
+        <p id="texts">Computer is Ready!!!!<br>Pick yours as well....</p>
+        <div id="disp-choice">
+            <img src="rock.png" onclick="rock_choice()"id="rock">
+            <img src="paper.png" onclick="paper_choice()" alt="paper" id="paper">
+            <img src="scissors.png"onclick="scissors_choice()" alt="scissors" id="scissors">
+        </div>
+        <p id="result"></p>
+        <button id="refresh" onclick="reload()">Refresh</button>
+    </div>
+</body>
+</html>

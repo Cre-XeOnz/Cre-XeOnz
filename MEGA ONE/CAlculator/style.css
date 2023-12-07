@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+body {
+    font-family: 'poppins', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #660029;
+}
+h1{
+    margin-top: -40%;
+    font-weight: bold;
+    color: white;
+}
+container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color:#000033;
+    height: 60vh;
+    width: 50vh;
+    border-radius: 10px;
+    margin-left: -35vh;
+}
+
+calc-dis {
+    margin-left: 3.3%;
+    margin-right: 5%;
+    margin-top: 5%;
+}
+
+calc-dis input[type="text"] {
+    width: 45.8vh;
+    height: 8vh;
+    padding: 10px;
+    font-size: 16px;
+    text-align: right;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #00ff00;
+}
+.numbers{
+    width: 32vh;
+    margin-right: 16vh;
+    margin-top: 6vh;
+}
+row1,row2,row3,row4{
+    display: flex;
+    flex-direction: row;
+    padding: 0px;  
+}
+.numbers row1 button,row2 button,row3 button,row4 button{
+    padding-top: 2.8vh;
+    padding-bottom: 2.8vh;
+    padding-left: 5vh;
+    padding-right: 5vh;
+    border-radius: 6px;
+    color: White;
+    background-color: #33ccff;
+    font-size: 1.3em;
+}
+.calc{
+    display: flex;
+    flex-direction: column;
+    width: 11vh;
+    margin-left: 37vh;
+    margin-top: -39.43vh;
+}
+.calc button{
+    border-radius: 8px;
+    padding-top:1.1vh ;
+    padding-bottom:1.13vh ;
+    background-color: #33ccff;
+    color: white;
+    font-size: 1.3em;
+}
+.reset-btn {
+    height: 10vh;
+    width: 50vh;
+    padding: 1.2vh;
+    justify-content: center;
+    margin-top: 0.3vh;
+    margin-bottom: -8vh;  
+    width: 45.5vh;
+    border-radius: 4px;
+    background-color: none;
+    color: skyblue;
+    margin-left: -4vh;
+    z-index: 2px;
+}
+
+.reset-btn button {
+    width: 46vh; 
+    height: 100%;
+    border: none;
+    margin-top: -1vh;
+    border: 1px solid black;
+    border-radius: 4px;
+    background-color: #ffff00;
+    color: skyblue;
+    font-weight: bolder;
+    cursor: pointer;
+    font-size: 1.3em;
+}
+.reset-btn button:hover {
+    background-color: #d9d9d9;
+    box-shadow: 10px 10px 10px 0px rgba(0, 0, 0, 0.1);
+    transform: scale(0.99);
+    transition: 0.2s;
+}
+::placeholder{
+    color: black;
+    font-size: 1.2em;
+}
+#dot{
+    padding-right: 6vh;
+}
+#percent{
+    padding-left: 3.8vh;
+}
